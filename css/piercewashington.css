@@ -1,0 +1,523 @@
+
+/* ---------- Structure ----------*/ 
+
+*  {
+	padding: 0px;
+	margin: 0px;
+} 
+
+html { /* gets rid of scrollbar shift */ 
+	min-height: 100%;
+	margin-bottom: 1px;
+	overflow-y: scroll;
+}  
+
+#body {
+	background: #fff;
+}
+
+#wrap {
+	width: 940px;
+	margin: 0px auto 0px auto;
+	padding: 20px 42px 0px 42px;
+} 
+
+
+#footer {
+	width: 940px;
+	height: 55px;  
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	clear: both;
+	background: #fff;  
+} 
+
+#main {
+	width: 620px;
+	margin: 20px 20px 0px 0px;
+	float: left;
+} 
+
+#homeMain {
+	width: 640px;
+	margin: 0px;
+	float: left;
+}
+
+#mainHeaderImage {
+	z-index: 10;
+	position: absolute;
+}
+
+#mainHeaderTitle {
+	z-index: 50;
+	width: 940px;
+	height: 80px;
+	position: absolute;
+	top: 453px;
+    background-image: url('../assets/green-bg.png'); 
+}
+
+#primaryMessaging {
+	width: 640px;
+	height: 135px;
+	float: left; 
+	padding: 15px 0px 0px 0px;
+}
+
+#secondaryMessaging {
+	width: 310px;
+	height: 130px;
+	padding: 10px;
+	float: left; 
+	background: #55803a;
+}
+
+#clientStories {
+	width: 330px;
+	height: 150px;
+	float: left;
+	background: #55803a;
+}
+
+#news { 
+	width: 560px;
+	height: 95px;
+	float: left;
+	padding: 0px 40px 0px 40px;
+	background: #55803a;	
+}
+
+#smlColumn {
+	width: 300px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+}
+
+#smlColumn2 {
+	width: 220px;
+	margin: 20px 0px 0px 80px;
+	float: left;
+}
+
+#smlColumn3 {
+	width: 220px;
+	float: left;
+	margin: 30px 0px 0px 0px;
+	border-width: 3px 0px 0px 0px;
+	border-style: solid;
+	border-color: #ccc;
+} 
+
+#medColumn {
+	width: 460px;
+	float: left;
+	margin: 30px 20px 40px 20px;
+	padding: 10px 0px 0px 0px; 
+	border-width: 3px 0px 0px 0px;
+	border-style: solid;
+	border-color: #ccc;
+}
+
+
+
+#smlModule {
+	width: 260px;
+	margin: 10px 0px 0px 0px;
+	padding: 20px;
+	background: #eee;
+}
+
+
+#homeSmlModule {
+	width: 260px;
+	height: 260px;
+	margin: 0px 0px 0px 0px;
+	padding: 20px;
+	background: #eee;
+}  
+
+.info, .moreInfo {
+	width: 300px;
+	margin: 0px 0px 0px 20px;
+	float: left;
+} 
+
+.teamMember {
+	margin: 30px 0px 0px 0px;
+	float: left;
+	display: block;
+}
+
+.listColumn {
+	padding: 20px 0px 0px 0px;
+} 
+
+#download {
+	float: right;
+	position: relative;
+	top: -60px;
+	margin-right: 20px;
+}
+
+
+
+/* --------- Navigation ---------- */
+ 
+#nav  {
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+	border-color: #c8c8c8;
+	margin: 24px 0px 0px 0px;
+	padding: 10px 0px 9px 0px;
+	height: 14px; 
+}
+
+#nav li {
+	display: inline;
+	margin-right: 35px;
+}
+
+#nav a:link {
+	color: #888;
+	text-decoration: none;
+	padding: 10px;
+} 
+
+#nav a:visited { 
+	color: #888;
+}
+
+#nav a:hover {
+	color: #fff;
+	text-decoration: none;
+	background: #558039;
+}
+
+#nav .navSelected {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	background: #558039;
+} 
+
+.navLast {
+	float: right;
+}
+
+.socialIcon {
+	margin: 0px 0px 0px 527px;
+}
+
+
+
+/* --------- Elements ---------- */ 
+
+
+img {
+	padding: 0px;
+	margin: 0px;
+} 
+
+a, div, img { /* gets rid of Firefox outline */
+	outline: none;
+	border: none;
+}
+
+.moduleIcon { 
+	display: block;
+	margin: 30px auto 30px auto;
+}
+
+.imgFloatLeft {
+	float: left;
+} 
+
+.clientBtn {
+	margin-right: 20px;
+} 
+
+
+
+/* --------- Fonts & Colors ---------- */  
+
+body {
+	font-family: 'AsapRegular', sans-serif;
+}
+
+p { 
+	font-family: 'AsapRegular', sans-serif;
+	margin: 20px 0px 20px 0px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+#galleria p, .teamMember p { 
+	font-family: 'AsapRegular', sans-serif;
+	margin: 20px 0px 20px 0px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#main li { 
+	font-family: 'AsapRegular', sans-serif;
+	margin: 10px 0px 0px 0px;
+	font-size: 14px;
+	line-height: 20px;
+	list-style-type: circle; 
+	list-style-position: inside; 
+} 
+
+#main ul {
+	margin: 20px 0px 20px 0px;
+}
+
+#secondaryMessaging p {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 18px;
+	line-height: 20px;
+    color: #fff;
+}
+
+#smlModule p, #homeSmlModule p {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 5px 0px 0px 0px;
+	color: #55803a;
+}
+
+#news p, #news a {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 12px;
+	line-height: 20px;
+    color: #fff;	
+} 
+
+
+#nav {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+} 
+ 
+a:link {
+	color: #55803a;
+}
+
+a:visited {
+	color: #55803a;
+}
+
+#footer p, #footer a {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 14px;
+	color: #888;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+.introText, .boldIntroText {
+	font-family: 'AsapRegular', sans-serif;
+	font-size: 24px;
+	line-height: 40px;
+	margin: 0px 0px 20px 0px;
+}
+
+.boldIntroText {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	vertical-align: middle;
+}
+ 
+#smlColumn ul, #smlColumn2 ul, #smlColumn3 ul {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 14px;
+	line-height: 30px;
+	list-style: none;
+	color: #888;
+}
+
+#smlColumn li, #smlColumn2 li, #smlColumn3 li {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 18px;
+	line-height: 30px;
+	list-style: none;
+	color: #000;
+}
+
+.listtColumn {
+	margin: 30px 0px 0px 0px;
+} 
+
+li {
+	list-style: none;
+} 
+
+.contactInfo {
+	font-family: 'AsapRegular', sans-serif;	
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.moreInfo {
+	font-family: 'AsapRegular', sans-serif;	
+	font-size: 14px;
+	line-height: 20px;
+	color: #888;	
+}
+
+#clientInfo ul, #clientInfo li, #clientInfo p {
+	font-family: 'AsapRegular', sans-serif;	
+	color: #888;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#clientInfo ul { 
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	margin: 10px 0px 20px 0px;
+}
+
+#smlColumn3 p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.callOut {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;	
+	font-size: 18px;
+	line-height: 24px;
+}
+
+blockquote {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;	
+	font-size: 30px;
+	line-height: 30px;
+	color: #55803a;
+	margin: 30px 0px 30px 0px;
+}
+
+.attribution {
+	font-family: 'AsapRegular', sans-serif; 	
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.emphasis {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+}
+
+#download a {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;	
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+} 
+
+#download img {
+	float: left;
+	margin-right: 10px;
+}
+
+#medColumn li {
+	font-family: 'AsapRegular', sans-serif;
+	margin: 20px 0px 20px 20px;
+	font-size: 14px;
+	line-height: 20px;        
+	list-style: circle; 
+}
+
+
+
+/* --------- Headers ---------- */
+ 
+
+#header h1, #gallery h1 { 
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold; 
+	padding: 20px;
+	font-size: 50px;
+	line-height: 40px;
+	color: #fff;
+}
+
+#main h2, #smlColumn3 h3 {
+	padding: 10px 0px 10px 0px;
+}
+
+
+h1 {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 24px;
+	line-height: 30px;
+}  
+
+h2 {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 30px;
+	line-height: 30px;	
+	color: #55803a;
+}
+
+h3 {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+	text-transform: uppercase; 
+}
+
+h4 {
+	font-family: 'AsapBold', sans-serif;
+	font-style: bold;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+}
+
+
+/* --------- Squirrel Font ---------- */ 
+
+@font-face {
+    font-family: 'AsapRegular';
+    src: url('../assets/fonts/Asap-Regular-webfont.eot');
+    src: url('../assets/fonts/Asap-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../assets/fonts/Asap-Regular-webfont.svg#AsapRegular') format('svg'),
+         url('../assets/fonts/Asap-Regular-webfont.woff') format('woff'),
+         url('../assets/fonts/Asap-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'AsapBold';
+    src: url('../assets/fonts/Asap-Bold-webfont.eot');
+    src: url('../assets/fonts/Asap-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../assets/fonts/Asap-Bold-webfont.svg#AsapBold') format('svg'),         
+		 url('../assets/fonts/Asap-Bold-webfont.woff') format('woff'),
+         url('../assets/fonts/Asap-Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

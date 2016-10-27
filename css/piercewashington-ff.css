@@ -1,0 +1,57 @@
+#header h1, #gallery h1 { 
+	font-family: 'Asap', sans-serif;
+	font-style: 700; 
+	padding: 20px;
+	font-size: 50px;
+	line-height: 40px;
+	color: #fff;
+}
+
+
+h1 {
+	font-family: 'Asap', sans-serif;
+	font-style: 700;
+	font-size: 24px;
+	line-height: 30px;
+}  
+
+h2 {
+	font-family: 'Asap', sans-serif;
+	font-style: 700;
+	font-size: 30px;
+	line-height: 30px;	
+	color: #55803a;
+}
+
+h3 {
+	font-family: 'Asap', sans-serif;
+	font-style: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+	text-transform: uppercase; 
+}
+
+h4 {
+	font-family: 'Asap', sans-serif;
+	font-style: 700;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000;
+}
+
+.galleria-info-title {
+	font-family: 'Asap', sans-serif;
+	font-style: 700;
+	margin: 0;
+	padding: 5px 20px 10px 20px;
+    color: #fff;
+    margin-bottom: 0px;
+	position: absolute;
+	left: -705px;
+	top: 332px; 
+	display: block;
+	background-image: url('../assets/green-bg.png');
+	width: 665px;
+}
+

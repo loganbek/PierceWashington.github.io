@@ -1,0 +1,57 @@
+.galleria-info-title {
+    font: bold 50px 'AsapBold',sans-serif;
+    margin: 0;
+	padding: 10px 20px 10px 20px;
+    color: #fff;
+    margin-bottom: 0px;
+	position: absolute;
+	left: -705px;
+	top: 332px; 
+	display: block;
+	background-image: url('../assets/green-bg.png');
+	width: 665px;
+}
+
+
+/* --------- Navigation ---------- */
+#nav  {
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+	border-color: #c8c8c8;
+	margin: 24px 0px 0px 0px;
+	padding: 9px 0px 9px 0px;
+	height: 15px; 
+} 
+
+#nav li {
+	display: inline;
+	margin-right: 52px;
+}
+
+#nav a:link {
+	color: #888;
+	text-decoration: none;
+	padding: 0px;
+} 
+
+#nav a:visited { 
+	color: #888; 
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: #558039;
+	text-decoration: none;
+	background: #fff;
+}
+
+.navSelected {
+	color: #fff;
+	text-decoration: none;
+	background: #558039; 
+	
+} 
+
+
+
+
